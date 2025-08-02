@@ -9,9 +9,4 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"""
-        title: {self.title}
-        content: {self.content}
-        date_posted: {self.date_posted}
-        author: {self.author}
-        """
+        return self.title

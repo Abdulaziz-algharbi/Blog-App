@@ -9,6 +9,7 @@ mysqlclient = "*"
 django-crispy-forms = "*"
 crispy-bootstrap5 = "*"
 pillow = "*"
+python-decouple = "*"
 
 [dev-packages]
 

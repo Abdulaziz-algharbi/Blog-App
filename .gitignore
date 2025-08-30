@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Environment
+.env
+venv/
+ENV/
+*.env
+
+# Django stuff
+media/
+staticfiles/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
